@@ -26,13 +26,8 @@ The demo uses **`DT_DialogueTextStyles`** with rows such as `Default`, `red`, `g
 
 ![Rich Text markup in the conversation table](../images/richtext-ejemplo-etiquetas.png)
 
-## 3. Check the widget
 
-The widget that displays the dialogue must use a **Rich Text Block** with the appropriate table set under **Text Style Set**. A screenshot showing this property is still pending.
-
-![Assigning styles in the widget](../images/richtext-widget-configuracion.png)
-
-## 4. Result and recommendations
+## 3. Result and recommendations
 
 ![Colored text in-game](../images/richtext-en-juego.png)
 
