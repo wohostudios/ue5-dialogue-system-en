@@ -71,4 +71,4 @@ Your **conversation Data Tables** from the Free Starter Pack can be reused in Fu
 - [Spanish-speaking Discord community](https://discord.gg/JY5JTQaWqn)
 - [Free Starter Pack documentation in English](https://github.com/wohostudios/ue5-dialogue-system-starter-pack-en)
 
-**Documentation note:** The instructions reflect the shared Full Blueprint screenshots and workflows. Any step marked **Verify in your project** should be confirmed against the shipped Full asset before treating it as an exact integration contract.
+
