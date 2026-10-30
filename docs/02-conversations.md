@@ -49,8 +49,4 @@ Use the normal dialogue value provided by your version's `Type` enum and select 
 
 With `AC_DialogueManager` on your player, call `Dialogue Create Widgets`, then `Dialogue Play Conversation`, and connect the Data Table to `Conversation`.
 
-## 5. Screenshot filenames
 
-Keep `images/estructura-dialogue-line.png` and `images/configuracion-data-table.png` unchanged when uploading screenshots.
-
-Next: [Events](03-events.md).
