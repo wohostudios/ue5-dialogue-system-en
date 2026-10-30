@@ -50,4 +50,4 @@ Use the normal dialogue value provided by your version's `Type` enum and select 
 With `AC_DialogueManager` on your player, call `Dialogue Create Widgets`, then `Dialogue Play Conversation`, and connect the Data Table to `Conversation`.
 
 
-Next: [Events](03-events.mg.md).
+Next: [Events](03-events.md).
