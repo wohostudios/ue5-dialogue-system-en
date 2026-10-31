@@ -32,7 +32,7 @@ When displaying a line, the manager reads the localized text, audio, and prompt 
 
 ![Audio playback and timer](../images/dialogo-audio-reproduccion.png)
 
-**Technical note:** To document the exact priority between `Audio Duration` and `Duration` with and without an audio asset, inspect the complete `Dialogue_PlayAudio` function and the `Set Timer by Event` connections. The available screenshot only shows part of the flow.
+
 
 ## 4. Player controls
 
