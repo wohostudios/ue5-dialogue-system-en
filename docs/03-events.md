@@ -20,7 +20,7 @@ When appropriate, set the dialogue row's `Type` to `Event`, then enter an event 
 
 ## 3. How the message is delivered
 
-In the component flow previously inspected, **Get All Actors with Interface** finds actors implementing `BPI_DialogueEvents`; **For Each Loop** iterates the results and **Execute Dialogue Event** sends the `Event Name` to each receiver.
+The dialogue system uses, **Get All Actors with Interface** finds actors implementing `BPI_DialogueEvents`; **For Each Loop** iterates the results and **Execute Dialogue Event** sends the `Event Name` to each receiver.
 
 ```text
 Conversation Data Table (TriggerEvent: PowerActivate)
@@ -40,11 +40,8 @@ Conversation Data Table (TriggerEvent: PowerActivate)
 
 ![Player Blueprint event receiver](../images/eventos-player-character.png)
 
-## 4. Conversation start and finish events
 
-The previous architecture documentation references `BPI_DialogueConversation`, including `ConversationStarted()` and `ConversationFinished()`. These can support actions such as disabling player movement or hiding the HUD. **Verify in your project:** the current receiver, signatures, and dispatch mechanism in `AC_DialogueManager`.
-
-## 5. Opening decisions from dialogue events
+## 4. Opening decisions from dialogue events
 
 The Full demo handles `Make Decision` in `Switch on Name` to open choices through `AC_DecisionManager`. See the [decision guide](04-decisions.md).
 
